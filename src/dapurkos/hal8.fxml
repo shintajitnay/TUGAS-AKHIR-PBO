@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="510.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="dapurkos.Hal8Controller">
+   <children>
+      <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="528.0" prefWidth="600.0" style="-fx-background-color: red;">
+         <children>
+            <Label layoutX="26.0" layoutY="144.0" text="Bahan:">
+               <font>
+                  <Font size="19.0" />
+               </font>
+            </Label>
+            <Label layoutX="26.0" layoutY="176.0" text="1 ikat Bayam" />
+            <Label layoutX="27.0" layoutY="205.0" text="1 buah tomat" />
+            <Label layoutX="27.0" layoutY="238.0" text="Ladaku" />
+            <Label layoutX="29.0" layoutY="296.0" text="2 siung bawang putih" />
+            <Label layoutX="27.0" layoutY="269.0" text="2 siung bawang merah" />
+            <JFXButton fx:id="harga" layoutX="27.0" layoutY="418.0" onAction="#prosesharga" prefHeight="17.0" prefWidth="48.0" style="-fx-background-color: grey;" text="harga" />
+            <TextField fx:id="harga1" layoutX="159.0" layoutY="172.0" prefHeight="9.0" prefWidth="147.0" />
+            <TextField fx:id="harga2" layoutX="159.0" layoutY="201.0" prefHeight="9.0" prefWidth="147.0" />
+            <TextField fx:id="harga3" layoutX="159.0" layoutY="230.0" prefHeight="9.0" prefWidth="147.0" />
+            <TextField fx:id="harga4" layoutX="159.0" layoutY="258.0" prefHeight="9.0" prefWidth="147.0" />
+            <TextField fx:id="harga5" layoutX="159.0" layoutY="287.0" prefHeight="9.0" prefWidth="147.0" />
+            <TextField fx:id="total" layoutX="161.0" layoutY="467.0" prefHeight="9.0" prefWidth="147.0" />
+            <JFXButton fx:id="subtotal" layoutX="27.0" layoutY="467.0" onAction="#prosestotal" prefHeight="17.0" prefWidth="48.0" style="-fx-background-color: grey;" text="Total" />
+            <Label layoutX="339.0" layoutY="144.0" text="Cara Pembuatan">
+               <font>
+                  <Font size="19.0" />
+               </font>
+            </Label>
+            <Separator layoutX="319.0" layoutY="120.0" orientation="VERTICAL" prefHeight="407.0" prefWidth="2.0" />
+            <Label layoutX="339.0" layoutY="176.0" prefHeight="17.0" prefWidth="251.0" text="1.Bawang merah dan bawang putih diiris" />
+            <Label layoutX="339.0" layoutY="194.0" prefHeight="28.0" prefWidth="268.0" text="2.Panaskan air" />
+            <Label layoutX="338.0" layoutY="219.0" prefHeight="28.0" prefWidth="268.0" text="3.Setelah air panas masukan bawang merah," />
+            <Label layoutX="347.0" layoutY="235.0" prefHeight="28.0" prefWidth="268.0" text="bawang putih, garam, gula dan ladaku" />
+            <Label layoutX="339.0" layoutY="256.0" prefHeight="28.0" prefWidth="268.0" text="4.Setelah bumbu dirasa pas, " />
+            <Label layoutX="349.0" layoutY="272.0" prefHeight="28.0" prefWidth="268.0" text="masukan bayam yg telah dibersihkan" />
+            <Label layoutX="338.0" layoutY="314.0" prefHeight="28.0" prefWidth="268.0" text="5.aduk semua bahan tambahkan garam sesuai" />
+            <Label layoutX="346.0" layoutY="329.0" prefHeight="28.0" prefWidth="268.0" text="selera." />
+            <Label layoutX="338.0" layoutY="348.0" prefHeight="28.0" prefWidth="268.0" text="6.Masak sampai bayam layu" />
+            <Label layoutX="338.0" layoutY="370.0" prefHeight="28.0" prefWidth="268.0" text="8.angkat lalu sajikan " />
+            <ImageView fitHeight="91.0" fitWidth="105.0" layoutX="1.0" layoutY="1.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@logo.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="119.0" fitWidth="139.0" layoutX="438.0" layoutY="25.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@bayem.jpg" />
+               </image>
+            </ImageView>
+            <Label layoutX="128.0" layoutY="47.0" prefHeight="46.0" prefWidth="288.0" text="Sayur Bayam" textFill="#726868">
+               <font>
+                  <Font name="Bodoni MT Black" size="39.0" />
+               </font>
+            </Label>
+            <JFXButton fx:id="kembali" layoutX="523.0" layoutY="467.0" onAction="#proseskembali" prefHeight="25.0" prefWidth="63.0" style="-fx-background-color: grey;" text="Kembali" />
+            <Label layoutX="207.0" layoutY="140.0" text="Harga">
+               <font>
+                  <Font size="19.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

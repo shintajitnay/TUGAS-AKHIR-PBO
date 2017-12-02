@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="541.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="dapurkos.Hal7Controller">
+   <children>
+      <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="541.0" prefWidth="600.0" style="-fx-background-color: red;">
+         <children>
+            <Label layoutX="26.0" layoutY="144.0" text="Bahan:">
+               <font>
+                  <Font size="19.0" />
+               </font>
+            </Label>
+            <Label layoutX="26.0" layoutY="176.0" text="1 bungkus mie instan" />
+            <Label layoutX="27.0" layoutY="205.0" text="1 butir telur" />
+            <JFXButton fx:id="harga" layoutX="27.0" layoutY="418.0" onAction="#prosesharga" prefHeight="17.0" prefWidth="48.0" style="-fx-background-color: grey;" text="harga" />
+            <TextField fx:id="harga1" layoutX="159.0" layoutY="172.0" prefHeight="9.0" prefWidth="147.0" />
+            <TextField fx:id="harga2" layoutX="159.0" layoutY="201.0" prefHeight="9.0" prefWidth="147.0" />
+            <TextField fx:id="total" layoutX="161.0" layoutY="467.0" prefHeight="9.0" prefWidth="147.0" />
+            <JFXButton fx:id="subtotal" layoutX="27.0" layoutY="467.0" onAction="#prosestotal" prefHeight="17.0" prefWidth="48.0" style="-fx-background-color: grey;" text="Total" />
+            <Label layoutX="339.0" layoutY="144.0" text="Cara Pembuatan">
+               <font>
+                  <Font size="19.0" />
+               </font>
+            </Label>
+            <Separator layoutX="319.0" layoutY="120.0" orientation="VERTICAL" prefHeight="407.0" prefWidth="2.0" />
+            <Label layoutX="339.0" layoutY="176.0" prefHeight="17.0" prefWidth="213.0" text="1.Rebus mi instan" />
+            <Label layoutX="344.0" layoutY="184.0" prefHeight="28.0" prefWidth="268.0" text=" dan siapkan telur kocok di wadah yang berbeda" />
+            <Label layoutX="338.0" layoutY="212.0" prefHeight="28.0" prefWidth="268.0" text="2.Jika mie nya udah mateng, tiriskan mie" />
+            <Label layoutX="346.0" layoutY="233.0" prefHeight="28.0" prefWidth="268.0" text="campurkan dengan telur yang sudah di kocok " />
+            <Label layoutX="346.0" layoutY="257.0" prefHeight="28.0" prefWidth="268.0" text="masukan bumbu mie nya dan aduk aduk " />
+            <Label layoutX="335.0" layoutY="285.0" prefHeight="28.0" prefWidth="268.0" text="3. Siapkan wajan dengan minyak yang " />
+            <Label layoutX="346.0" layoutY="299.0" prefHeight="28.0" prefWidth="268.0" text="sudah di panaskan,goreng mielor" />
+            <Label layoutX="335.0" layoutY="324.0" prefHeight="28.0" prefWidth="268.0" text="4.tiriskan dan siap di sajikan," />
+            <ImageView fitHeight="91.0" fitWidth="105.0" layoutX="1.0" layoutY="1.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@logo.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="119.0" fitWidth="195.0" layoutX="417.0" layoutY="2.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@telor.jpg" />
+               </image>
+            </ImageView>
+            <Label layoutX="212.0" layoutY="38.0" prefHeight="42.0" prefWidth="257.0" text="Milor" textFill="#726868">
+               <font>
+                  <Font name="Bodoni MT Black" size="39.0" />
+               </font>
+            </Label>
+            <JFXButton fx:id="kembali" layoutX="523.0" layoutY="467.0" onAction="#proseskembali" prefHeight="25.0" prefWidth="63.0" style="-fx-background-color: grey;" text="Kembali" />
+            <Label layoutX="197.0" layoutY="130.0" text="Harga">
+               <font>
+                  <Font size="19.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

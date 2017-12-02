@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="364.0" prefWidth="504.0" style="-fx-background-color: red;" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="dapurkos.LoginController">
+   <children>
+      <Label fx:id="coba" disable="true" layoutX="164.0" layoutY="14.0" prefHeight="63.0" prefWidth="160.0" text="LOGIN" textFill="#26c8d3">
+         <font>
+            <Font name="GeoSlab703 Md BT Bold" size="48.0" />
+         </font>
+      </Label>
+      <Label layoutX="113.0" layoutY="130.0" text="Username">
+         <font>
+            <Font name="Times New Roman" size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="114.0" layoutY="207.0" text="Password">
+         <font>
+            <Font name="Times New Roman" size="24.0" />
+         </font>
+      </Label>
+      <JFXTextField fx:id="idUsername" layoutX="236.0" layoutY="138.0" />
+      <JFXTextField fx:id="idPassword" layoutX="236.0" layoutY="206.0" />
+      <JFXButton fx:id="btnmasuk" layoutX="364.0" layoutY="270.0" onAction="#prosesmasuk" prefHeight="31.0" prefWidth="62.0" style="-fx-background-color: grey;" text="Masuk" />
+      <ImageView fitHeight="80.0" fitWidth="149.0" layoutX="410.0" layoutY="6.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@logo.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

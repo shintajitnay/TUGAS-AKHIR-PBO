@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="528.0" prefWidth="600.0" style="-fx-background-color: red;" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="dapurkos.Hal3Controller">
+   <children>
+      <Label layoutX="26.0" layoutY="144.0" text="Bahan:">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Label>
+      <Label layoutX="26.0" layoutY="176.0" text="2 butir telur" />
+      <Label layoutX="27.0" layoutY="205.0" text="1 buah tomat" />
+      <Label layoutX="27.0" layoutY="238.0" text="Daun bawang" />
+      <Label layoutX="29.0" layoutY="296.0" text="2 siung bawang putih" />
+      <Label layoutX="27.0" layoutY="269.0" text="2 siung bawang merah" />
+      <Label layoutX="27.0" layoutY="355.0" text="garam" />
+      <Label layoutX="27.0" layoutY="329.0" text="Mentega" />
+      <Label layoutX="31.0" layoutY="386.0" text="Sosis" />
+      <JFXButton fx:id="harga" layoutX="27.0" layoutY="418.0" onAction="#prosesharga" prefHeight="17.0" prefWidth="48.0" style="-fx-background-color: grey;" text="harga" />
+      <TextField fx:id="harga1" layoutX="159.0" layoutY="172.0" prefHeight="9.0" prefWidth="147.0" />
+      <TextField fx:id="harga2" layoutX="159.0" layoutY="201.0" prefHeight="9.0" prefWidth="147.0" />
+      <TextField fx:id="harga3" layoutX="159.0" layoutY="230.0" prefHeight="9.0" prefWidth="147.0" />
+      <TextField fx:id="harga4" layoutX="159.0" layoutY="258.0" prefHeight="9.0" prefWidth="147.0" />
+      <TextField fx:id="harga5" layoutX="159.0" layoutY="287.0" prefHeight="9.0" prefWidth="147.0" />
+      <TextField fx:id="harga6" layoutX="159.0" layoutY="316.0" prefHeight="9.0" prefWidth="147.0" />
+      <TextField fx:id="harga7" layoutX="158.0" layoutY="346.0" prefHeight="9.0" prefWidth="147.0" />
+      <TextField fx:id="harga8" layoutX="159.0" layoutY="376.0" prefHeight="9.0" prefWidth="147.0" />
+      <TextField fx:id="total" layoutX="161.0" layoutY="467.0" prefHeight="9.0" prefWidth="147.0" />
+      <JFXButton fx:id="subtotal" layoutX="27.0" layoutY="467.0" onAction="#prosestotal" prefHeight="17.0" prefWidth="48.0" style="-fx-background-color: grey;" text="Total" />
+      <Label layoutX="339.0" layoutY="144.0" text="Cara Pembuatan">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Label>
+      <Separator layoutX="319.0" layoutY="120.0" orientation="VERTICAL" prefHeight="407.0" prefWidth="2.0" />
+      <Label layoutX="339.0" layoutY="176.0" prefHeight="17.0" prefWidth="213.0" text="1.pecahkan telur letakan pada mangkuk" />
+      <Label layoutX="339.0" layoutY="194.0" prefHeight="28.0" prefWidth="268.0" text="2.potong tomat,daun bawang" />
+      <Label layoutX="347.0" layoutY="214.0" prefHeight="28.0" prefWidth="268.0" text="bawang merah bawang putih menjadi " />
+      <Label layoutX="348.0" layoutY="233.0" prefHeight="28.0" prefWidth="268.0" text="bagian tipis tipis." />
+      <Label layoutX="339.0" layoutY="256.0" prefHeight="28.0" prefWidth="268.0" text="3.Potong Sosis sesuai selera." />
+      <Label layoutX="339.0" layoutY="280.0" prefHeight="28.0" prefWidth="268.0" text="4.campurkan semua bahan ke dalam mangkuk " />
+      <Label layoutX="349.0" layoutY="294.0" prefHeight="28.0" prefWidth="268.0" text="telur." />
+      <Label layoutX="338.0" layoutY="314.0" prefHeight="28.0" prefWidth="268.0" text="5.aduk semua bahan tambahkan garam sesuai" />
+      <Label layoutX="346.0" layoutY="329.0" prefHeight="28.0" prefWidth="268.0" text="selera." />
+      <Label layoutX="338.0" layoutY="348.0" prefHeight="28.0" prefWidth="268.0" text="6.Panaskan mentega di penggorengan" />
+      <Label layoutX="339.0" layoutY="368.0" prefHeight="28.0" prefWidth="268.0" text="7.tuangkan adonan tunggu sampai matang" />
+      <Label layoutX="348.0" layoutY="384.0" prefHeight="28.0" prefWidth="268.0" text="jangan lupa di balik ya omlletenya..." />
+      <Label layoutX="339.0" layoutY="403.0" prefHeight="28.0" prefWidth="268.0" text="8.angkat lalu sajikan di piring" />
+      <ImageView fitHeight="91.0" fitWidth="105.0" layoutX="1.0" layoutY="1.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@logo.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="119.0" fitWidth="195.0" layoutX="441.0" layoutY="8.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@2.jpeg" />
+         </image>
+      </ImageView>
+      <Label layoutX="134.0" layoutY="38.0" prefHeight="42.0" prefWidth="257.0" text="OMELLETE" textFill="#726868">
+         <font>
+            <Font name="Bodoni MT Black" size="39.0" />
+         </font>
+      </Label>
+      <Label layoutX="134.0" layoutY="48.0" prefHeight="42.0" prefWidth="257.0" text="OMELLETE" textFill="#38b7dd">
+         <font>
+            <Font name="Bodoni MT Black" size="39.0" />
+         </font>
+      </Label>
+      <JFXButton fx:id="kembali" layoutX="523.0" layoutY="467.0" onAction="#proseskembali" prefHeight="25.0" prefWidth="63.0" style="-fx-background-color: grey;" text="Kembali" />
+   </children>
+</AnchorPane>
